@@ -35,9 +35,14 @@ const App = () => {
 
   return (
     <>
-      <NavBar user={user} handleLogout={handleLogout} />
-      <Routes>
-        <Route path="/" element={<Landing user={user} />} />
+       <NavBar/>
+       <Routes>
+        <Route path="/"/>
+        <Route path="/home"/>
+        <Route path="/quiz"/>
+       </Routes>
+      {/* <Routes>
+        <Route path="/"/>
         <Route
           path="/signup"
           element={<Signup handleSignupOrLogin={handleSignupOrLogin} />}
@@ -62,7 +67,7 @@ const App = () => {
             </ProtectedRoute>
           }
         />
-      </Routes>
+      </Routes>  */}
     </>
   )
 }
