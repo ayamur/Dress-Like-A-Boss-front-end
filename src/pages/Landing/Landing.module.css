@@ -2,20 +2,16 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: #000000 ;
 }
 
 body {
   background: url("../../../public/assets/db_logo_letters.png");
   background-repeat: no-repeat;
-  background-size: 75%;
+  background-size: 55%;
   background-color: rgb(41, 44, 97);
   background-attachment: fixed;
   background-position: center;
-  
-}
-
-h1.usernotuser {
-  color: black;
 }
 
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
